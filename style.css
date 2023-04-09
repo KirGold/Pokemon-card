@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.card {
+    background-color: #e2d51e;
+    width: 450px;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 15px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.card_box {
+    background-image:url(https://static.vecteezy.com/system/resources/previews/001/946/569/original/abstract-geometric-hexagons-yellow-background-with-diagonal-striped-lines-free-vector.jpg) ;
+    background-size: cover;
+    height: 100%;
+    padding: 10px 15px;
+    transition: 0.5s;
+    background-color: #e2d51e72;
+}
+
+
+.card:hover .card_box{
+    background: url(./img/Fondos\ de\ pantalla\ pokebola.jpeg);
+    background-size: cover;
+}
+.card_box-titel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box_header-right {
+    display: flex;
+}
+.header-right-text {
+    color: #8f0707;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header_right-circle {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #c89a1b;
+    border: 1px solid #6c4908;
+}
+.box_img-photo {
+    width: 380px;
+    height: 200px;
+    border: 3px solid #858585;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px #2f2f2f;
+}
+.box_img-infos {
+    text-align: center;
+    background-color: #918f8f;
+    color: #494848;
+    box-shadow: 0px -2px 5px #787777;
+}
+
+.power_1 { 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 220px;
+}
+.power_1-circle {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #c89a1b;
+    border: 1px solid #6c4908;
+}
+.power_1-titel {
+    font-size: 20px;
+}
+.power_1-info {
+    margin-left: 20px;
+}
+
+.power_2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.power_2-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #c89a1b;
+    border: 1px solid #6c4908;
+    align-self: flex-start;
+    
+}
+.power_2-circle_1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d0cec7;
+    border: 1px solid #979593;
+    
+}
+.power_2-titel {
+    font-size: 20px;
+    
+}
+.power_2-number {
+    font-size: 20px;
+    align-self: flex-end;
+}
